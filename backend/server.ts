@@ -6,7 +6,6 @@ import dotenv from "dotenv";
 import authRoutes from "./routes/auth";
 import categoryRoutes from "./routes/category";
 
-
 dotenv.config();
 const app = express();
 
