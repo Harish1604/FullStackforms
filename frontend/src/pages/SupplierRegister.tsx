@@ -36,7 +36,6 @@ const SupplierRegister: React.FC = () => {
     <div className="register-container">
       <div className="register-card">
         <h2>Supplier Registration</h2>
-
         {error && <div className="error-msg">{error}</div>}
         {success && <div className="success-msg">{success}</div>}
 
