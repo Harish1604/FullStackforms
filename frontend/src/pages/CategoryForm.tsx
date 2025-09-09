@@ -57,6 +57,7 @@ const CategoryForm: React.FC = () => {
         {error && <div className="error-msg">{error}</div>}
         {success && <div className="success-msg">{success}</div>}
 
+              
         <form onSubmit={handleSubmit}>
           <input
             type="text"
