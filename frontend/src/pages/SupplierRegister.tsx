@@ -33,7 +33,6 @@ const SupplierRegister: React.FC = () => {
   };
 
     return (
-      
     <div className="register-container">
       <div className="register-card">
         <h2>Supplier Registration</h2>
