@@ -68,6 +68,7 @@ const CategoryForm: React.FC = () => {
             required
           />
 
+                  
           <select
             name="parentCategoryId"
             value={form.parentCategoryId}
