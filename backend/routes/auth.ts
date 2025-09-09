@@ -22,6 +22,7 @@ router.post("/register", async (req, res) => {
       product,
     });
 
+      
     await supplier.save();
     res
       .status(201)
