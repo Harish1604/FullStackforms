@@ -12,7 +12,6 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-// MongoDB connect
 mongoose
   .connect(process.env.MONGO_URI || "mongodb://127.0.0.1:27017/vendor")
   .then(() => console.log("✅ MongoDB connected"))
