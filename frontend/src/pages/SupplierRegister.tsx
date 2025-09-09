@@ -3,7 +3,6 @@ import { supplierRegister } from "../services/api";
 import type { SupplierResponse } from "../services/api";
 import "../styles/SupplierRegister.css";
 
-
 const SupplierRegister: React.FC = () => {
   const [form, setForm] = useState({
     name: "",
