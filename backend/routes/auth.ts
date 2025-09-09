@@ -4,7 +4,6 @@ import Supplier from "../models/supplier";
 
 const router = express.Router();
 
-// Supplier Registration
 router.post("/register", async (req, res) => {
   const { name, email, phone, password, product } = req.body;
 
