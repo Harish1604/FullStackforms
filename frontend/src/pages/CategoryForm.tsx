@@ -25,6 +25,7 @@ const CategoryForm: React.FC = () => {
     }
   };
 
+    
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
