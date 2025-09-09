@@ -17,7 +17,7 @@ const CategorySchema: Schema = new Schema({
     default: null,
   },
   status: { type: String, enum: ["active", "inactive"], default: "active" },
-  createdBy: { type: String, default: "system" }, // later can use logged-in user
+  createdBy: { type: String, default: "system" }, 
   createdAt: { type: Date, default: Date.now },
 });
 
