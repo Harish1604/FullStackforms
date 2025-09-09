@@ -12,6 +12,7 @@ const SupplierRegister: React.FC = () => {
     password: "",
     product: "",
   });
+    
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
